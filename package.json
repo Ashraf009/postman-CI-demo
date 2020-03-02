@@ -4,7 +4,7 @@
   "description": "Node project to store postman collection",
   
   "scripts": {
-    "api-tests": "newman run Test.postman_collection.json"
+    "api-tests": "newman run Test.postman_collection.json --disable-unicode"
   },
   "keywords": [
     "Postman",
